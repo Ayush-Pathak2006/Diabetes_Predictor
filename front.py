@@ -38,7 +38,7 @@ model = pickle.load(open('diabetes_model.pkl', 'rb'))
 st.set_page_config(page_title="Diabetes Prediction App", layout="centered")
 
 # App title
-st.title("🩺 Diabetes Prediction Web App")
+st.title("🩺 Diabetes Prediction")
 st.subheader("Enter patient details below:")
 
 # Input form
