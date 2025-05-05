@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 import pandas as pd
 
-diabetes_dataset = pd.read_csv(r'C:\Users\Lenovo\Desktop\WEB Dev PROJECTS\Timer\diabetes.csv')
+diabetes_dataset = pd.read_csv(r'diabetes.csv')
 X = diabetes_dataset.drop(columns = 'Outcome', axis=1)
 
 scaler= StandardScaler()
